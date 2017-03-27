@@ -1,0 +1,16 @@
+PODS:
+  - YTSelectionPopupView (1.0.0)
+
+DEPENDENCIES:
+  - YTSelectionPopupView (from `../`)
+
+EXTERNAL SOURCES:
+  YTSelectionPopupView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YTSelectionPopupView: 191bf84c561e9fd10bf6d58dc358b18a76bc76b4
+
+PODFILE CHECKSUM: 6a661a2b6fdbfa946c3a89d9baa546508aacd780
+
+COCOAPODS: 1.2.0

@@ -1,0 +1,6 @@
+framework module YTSelectionPopupView {
+  umbrella header "YTSelectionPopupView-umbrella.h"
+
+  export *
+  module * { export * }
+}
