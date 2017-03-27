@@ -4,6 +4,24 @@
 [![License](https://img.shields.io/cocoapods/l/YTSelectionPopupView.svg?style=flat)](http://cocoapods.org/pods/YTSelectionPopupView)
 [![Platform](https://img.shields.io/cocoapods/p/YTSelectionPopupView.svg?style=flat)](http://cocoapods.org/pods/YTSelectionPopupView)
 
+## Usage
+First of all import module
+```swift
+ import YTSelectionPopupView
+```
+Then you can use like this :
+```swift
+ let selectionView = YTSelectionPopupView.instantiate()
+        selectionView.optionButtonTitleDone = "OK"
+        selectionView.optionButtonTitleCancel = "Cancel"
+        selectionView.optionBackgroundColor = #colorLiteral(red: 0.9529411793, green: 0.6862745285, blue: 0.1333333403, alpha: 1)
+        selectionView.dataSource = self
+        selectionView.delegate = self
+        selectionView.optionSelectionType = .multiple // .single
+        selectionView.optionDisplayStyle = .withoutTextField //  .withTextField
+        selectionView.optionPopupTitle = "Title Here!"
+        present(selectionView, animated: true, completion: nil)
+```
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
