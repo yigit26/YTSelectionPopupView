@@ -3,9 +3,9 @@ Pod::Spec.new do |s|
   s.version          = '1.0.0'
   s.summary          = 'YTSelectionPopupView is a popup view which is an alternative of picker view. '
 
-  s.description      = <<-DESC
-  YTSelectionPopupView is a popup view which is an alternative of picker view. You can use text field with selected item.
-  DESC
+  #s.description      = "<<-DESC
+  #YTSelectionPopupView is a popup view which is an alternative of picker view. You can use text field with selected item.
+  #DESC"
 
   s.homepage         = 'https://github.com/yigit26/YTSelectionPopupView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
