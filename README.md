@@ -6,6 +6,11 @@
 [![Platform](https://img.shields.io/cocoapods/p/YTSelectionPopupView.svg?style=flat)](http://cocoapods.org/pods/YTSelectionPopupView)
 
 
+## Screenshots
+
+![simulator screen shot 31 may 2017 18 57 08](https://cloud.githubusercontent.com/assets/4510936/26649004/fb1e68d4-464c-11e7-958a-8cba4f4d7068.png)
+
+
 ## Usage
 First of all import module
 ```swift
