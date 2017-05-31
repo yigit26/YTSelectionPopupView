@@ -14,6 +14,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		8F844CE41EDF261800A274A2 /* TestOpen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F844CE31EDF261800A274A2 /* TestOpen.swift */; };
 		97D9EB1CD3BD3FB405E5AC2F /* Pods_YTSelectionPopupView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AFE87435B124FA88C2D46EF /* Pods_YTSelectionPopupView_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		814E91B3CA33D67FB49844BE /* Pods-YTSelectionPopupView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTSelectionPopupView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YTSelectionPopupView_Example/Pods-YTSelectionPopupView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8F844CE31EDF261800A274A2 /* TestOpen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestOpen.swift; sourceTree = "<group>"; };
 		8FA00F77F3B609C4A3014BA6 /* Pods-YTSelectionPopupView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTSelectionPopupView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YTSelectionPopupView_Tests/Pods-YTSelectionPopupView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		91C27561FA43FCCF8C90A35A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BE6DDC7C4738FA444369FEE6 /* Pods-YTSelectionPopupView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTSelectionPopupView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YTSelectionPopupView_Example/Pods-YTSelectionPopupView_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 			children = (
 				607FACEB1AFB9204008FA782 /* Tests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
+				8F844CE31EDF261800A274A2 /* TestOpen.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -371,6 +374,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				8F844CE41EDF261800A274A2 /* TestOpen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

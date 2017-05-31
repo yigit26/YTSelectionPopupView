@@ -1,23 +1,29 @@
-import UIKit
-import XCTest
-import YTSelectionPopupView
+//
+//  TestOpen.swift
+//  YTSelectionPopupView
+//
+//  Created by Yiğit Can Türe on 31/05/2017.
+//  Copyright © 2017 CocoaPods. All rights reserved.
+//
 
-class Tests: XCTestCase {
+import XCTest
+
+class TestOpen: XCTestCase {
     
     override func setUp() {
         super.setUp()
     }
     
     override func tearDown() {
+        
         super.tearDown()
     }
     
     func testExample() {
-        XCTAssert(true, "Pass")
     }
     
     func testPerformanceExample() {
-        self.measure() {
+        self.measure {
         }
     }
     
