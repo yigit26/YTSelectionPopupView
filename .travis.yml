@@ -1,14 +1,8 @@
-# references:
-# * http://www.objc.io/issue-6/travis-ci.html
-# * https://github.com/supermarin/xcpretty#usage
-
+language: objective-c
 osx_image: xcode8
-language: swift
-# cache: cocoapods
-# podfile: Example/Podfile
-# before_install:
-# - gem install cocoapods # Since Travis is not always on latest version
-# - pod install --project-directory=Example
+xcode_sdk: iphonesimulator10.0
+
 script:
-- set -o pipefail && xcodebuild test -workspace Example/YTSelectionPopupView.xcworkspace -scheme YTSelectionPopupView-Example -sdk iphonesimulator9.3 ONLY_ACTIVE_ARCH=NO | xcpretty
-- pod lib lint
+- set -o pipefail 
+- travis_retry xcodebuild -workspace Example/YTSelectionPopupView.xcworkspace -scheme "YTSelectionPopupView-Example" -destination "platform=iOS Simulator,name=iPhone 6" build-for-testing test | xcpretty
+
