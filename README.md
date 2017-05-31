@@ -29,6 +29,7 @@ Then you can use like this :
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+iOS9+
 
 ## Installation
 
