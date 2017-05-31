@@ -3,7 +3,6 @@ Pod::Spec.new do |s|
   s.version          = '1.0.0'
   s.summary          = 'YTSelectionPopupView is a popup view which is an alternative of picker view. '
   s.homepage         = 'https://github.com/yigit26/YTSelectionPopupView'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Yigit Can Ture' => 'yigit.ture@gmail.com' }
   s.source           = { :git => 'https://github.com/yigit26/YTSelectionPopupView.git', :tag => s.version.to_s }
@@ -12,4 +11,7 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
      'YTSelectionPopupView' => ['YTSelectionPopupView/Classes/**/*.{storyboard,xib,xcassets,json,imageset,png}']
   }
+  s.module_name  = 'YTSelectionPopupView'
+  s.requires_arc = true
+  s.platform     = :ios, '9.0'
 end
