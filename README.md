@@ -4,7 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/YTSelectionPopupView.svg?style=flat)](http://cocoapods.org/pods/YTSelectionPopupView)
 [![License](https://img.shields.io/cocoapods/l/YTSelectionPopupView.svg?style=flat)](http://cocoapods.org/pods/YTSelectionPopupView)
 [![Platform](https://img.shields.io/cocoapods/p/YTSelectionPopupView.svg?style=flat)](http://cocoapods.org/pods/YTSelectionPopupView)
-
+[![Coverage Status](https://coveralls.io/repos/github/yigit26/YTSelectionPopupView/badge.svg?branch=master)](https://coveralls.io/github/yigit26/YTSelectionPopupView?branch=master)
 
 ## Screenshots
 
